@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL,
+  baseURL: "user-tracker-backend-production-962a.up.railway.app",
 });
 
 axiosInstance.interceptors.request.use(
